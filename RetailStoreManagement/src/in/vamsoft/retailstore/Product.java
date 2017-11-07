@@ -1,5 +1,9 @@
 package in.vamsoft.retailstore;
-
+/* 
+ * @project name:Retail store Management.
+ * @Date :
+ * @ 
+ */
 public class Product {
   int productID;
   String productName;
