@@ -1,0 +1,59 @@
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the EmpId : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the Employee Name : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the salary : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the Date Of Joining : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the DeptId : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - The Object is Not Created 
+java.sql.SQLRecoverableException: IO Error: Invalid number format for port number
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:458)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:546)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:236)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:521)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at in.vamsoft.jdbc.JdbcDaoConnection.getConnection(JdbcDaoConnection.java:27)
+	at in.vamsoft.jdbc.EmployeeDAOjdbcImpl.<init>(EmployeeDAOjdbcImpl.java:21)
+	at in.vamsoft.jdbc.EmployeeDAOFactory.getEmployeeDAOObj(EmployeeDAOFactory.java:15)
+	at in.vamsoft.jdbc.EmployeeMain.main(EmployeeMain.java:28)
+Caused by: oracle.net.ns.NetException: Invalid number format for port number
+	at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:187)
+	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:133)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:416)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:687)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:247)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1102)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:320)
+	... 10 more
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the EmpId : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the Employee Name : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the salary : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the Date Of Joining : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the DeptId : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - The Object is Not Created 
+java.sql.SQLRecoverableException: IO Error: Invalid number format for port number
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:458)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:546)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:236)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:521)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at in.vamsoft.jdbc.JdbcDaoConnection.getConnection(JdbcDaoConnection.java:27)
+	at in.vamsoft.jdbc.EmployeeDAOjdbcImpl.<init>(EmployeeDAOjdbcImpl.java:21)
+	at in.vamsoft.jdbc.EmployeeDAOFactory.getEmployeeDAOObj(EmployeeDAOFactory.java:15)
+	at in.vamsoft.jdbc.EmployeeMain.main(EmployeeMain.java:28)
+Caused by: oracle.net.ns.NetException: Invalid number format for port number
+	at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:187)
+	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:133)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:416)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:687)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:247)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1102)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:320)
+	... 10 more
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the EmpId : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the Employee Name : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the salary : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the Date Of Joining : 
+[main] INFO  in.vamsoft.jdbc.EmployeeMain  - Please Enter the DeptId : 

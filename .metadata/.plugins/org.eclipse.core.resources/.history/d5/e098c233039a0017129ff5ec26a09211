@@ -1,9 +1,0 @@
-package in.vamsoft.training;
-
-public class Vehicle {
-	public void Vehicle()
-	{
-		System.out.println("Vehicle.Vehicle()");
-	}
-
-}
